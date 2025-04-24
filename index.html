@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
 </head>
 <body>
-    
+    <div class="container">
+        <p>Напишите текст или вставьте ссылку</p>
+        <input type="text" placeholder="Текст или ссылка" id="qrText">
+        
+        <div id="imgBox">
+            <img src="" id="qrImage" alt="">
+        </div>
+
+        <button onclick="addQr()">Генерировать Qr-код</button>
+    </div>
 
     <script src="script.js"></script>
 </body>
